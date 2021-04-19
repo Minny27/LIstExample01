@@ -28,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
         data.add("이승민");
         data.add("안드로이드");
         data.add("감귤");
-        adapter.notifyDataSetChanged(); // 저장 완료 시키는 함수
         data.add("바나나");
+        data.set(3, "강아지");
+        adapter.notifyDataSetChanged(); // 저장 완료 시키는 함수
+        data.set(3, "우유");
+
     }
 }
